@@ -18,7 +18,7 @@ public class SolutionTest {
 
     @Test
     public void reverseTest(){
-        //Custom linkedList init
+        //Custom linkedList init from 1 to 5
         ListNode startNode = new ListNode(1, new ListNode(2));
         ListNode secondNode = startNode.next;
         secondNode.next = new ListNode(3, new ListNode(4));
